@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75%;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.yourboard,
+.botboard {
+  flex: 1;
+  height: 300px;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  color: blue;
+  font-size: 25px;
+}
+.flex {
+  display: flex;
+  background-color: green;
+  background-image: url("./images/blackjack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px 400px;
+  padding: 10px;
+}
+.btn {
+  background-color: green;
+}
+.yourboard {
+}
+.yourboard > img,
+.botboard > img {
+  flex-wrap: wrap;
+  margin: 5px;
+}
+button {
+  width: 15%;
+  height: 5vh;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.hit {
+  background-color: blue;
+  color: white;
+}
+.stand {
+  background-color: yellow;
+  color: black;
+}
+.deal {
+  background-color: red;
+  color: white;
+}
+.tbl {
+  display: inline-block;
+  justify-self: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  width: 200px;
+}

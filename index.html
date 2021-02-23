@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>challenge: Blackjack</h2>
+      <div class="titlescore">
+        <h2 id="result">Lest's play</h2>
+      </div>
+      <div class="flex">
+        <div class="yourboard">
+          <h2>you: <span id="yscore" class="yourscore">0</span></h2>
+        </div>
+        <div class="botboard">
+          <h2>Bot: <span class="botscore">0</span></h2>
+        </div>
+      </div>
+      <div class="btn">
+        <button class="hit">Hit</button>
+        <button class="stand">Stand</button>
+        <button class="deal">Deal</button>
+      </div>
+      <div class="tbl">
+        <table>
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Darws</th>
+          </tr>
+          <tr>
+            <td class="yourtable">0</td>
+            <td class="bottable">0</td>
+            <td class="drawstable">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
